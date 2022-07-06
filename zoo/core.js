@@ -1,47 +1,48 @@
-function entryCalculator (entrants) {
-  // your code here
-};
+function entryCalculator(entrants) {
+  return entrants.reduce((total,entrant) => {
+    return total + entrant.
+  },0)
+}
 
-function schedule (dayName) {
+function schedule(dayName) {
   // your code here
-};
+}
 
-function animalCount (species) {
+function animalCount(species) {
   // your code here
-};
+}
 
-function animalMap (options) {
+function animalMap(options) {
   // your code here
-};
+}
 
-function animalPopularity (rating) {
+function animalPopularity(rating) {
   // your code here
-};
+}
 
-function animalsByIds (ids) {
+function animalsByIds(ids) {
   // your code here
-};
+}
 
-function animalByName (animalName) {
+function animalByName(animalName) {
   // your code here
-};
+}
 
-function employeesByIds (ids) {
+function employeesByIds(ids) {
   // your code here
-};
+}
 
-function employeeByName (employeeName) {
+function employeeByName(employeeName) {
   // your code here
-};
+}
 
-function managersForEmployee (idOrName) {
+function managersForEmployee(idOrName) {
   // your code here
-};
+}
 
-function employeeCoverage (idOrName) {
+function employeeCoverage(idOrName) {
   // your code here
-};
-
+}
 
 module.exports = {
   entryCalculator: entryCalculator,
